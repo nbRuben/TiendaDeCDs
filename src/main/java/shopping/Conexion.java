@@ -50,7 +50,7 @@ public class Conexion {
 			Statement stmt = con.createStatement();
 			ResultSet rs = stmt.executeQuery(peticion);
 			while (rs.next()) {
-				cd = rs.getString("Autor") + " | " + rs.getString("Disco")
+				cd = rs.getString("Disco") + " | " + rs.getString("Autor")
 						+ " | " + rs.getString("Pais") + " | "
 						+ rs.getDouble("Precio");
 				cds.add(cd);

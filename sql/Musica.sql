@@ -15,6 +15,7 @@ INSERT INTO CDs(Autor,Disco,Pais,Precio) VALUES('Red Hot Chili Peppers','Califor
 INSERT INTO CDs(Autor,Disco,Pais,Precio) VALUES('U2','Vertigo', 'Irlanda' ,5.95);
 INSERT INTO CDs(Autor,Disco,Pais,Precio) VALUES('Daft Punk','Alive 2007', 'Francia' ,4.95);
 INSERT INTO CDs(Autor,Disco,Pais,Precio) VALUES('Rise Against','The Sufferer & the Witness', 'USA' ,6.95);
+INSERT INTO CDs(Autor,Disco,Pais,Precio) VALUES('Linkin Park','Hybrid Theory', 'USA' ,6.95);
 
 CREATE TABLE Compra (
   id INTEGER NOT NULL AUTO_INCREMENT,
