@@ -58,6 +58,13 @@ public class Conexion {
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
+		}finally{
+			try {
+				con.close();
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 		}
 		return cds;
 	}
@@ -76,6 +83,13 @@ public class Conexion {
 			stmt.executeUpdate();
 
 		} catch (SQLException e) {
+		}finally{
+			try {
+				con.close();
+			} catch (SQLException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
 		}
 	}
 
